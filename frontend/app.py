@@ -3,7 +3,7 @@ import json
 import requests
 import streamlit as st
 
-API_URL = 'http://127.0.0.1:3000'
+API_URL = 'go-gin-restapi:3000'
 
 page = st.sidebar.selectbox("Choose your page", ["example"])
 
